@@ -1,4 +1,7 @@
-template_git_personalizado
-==========================
+##template_git_personalizado
 
-Template personalizado para la creación de repositorios Git
+Template personalizado para la creación de repositorios Git.
+
+###Licencia
+
+MIT
