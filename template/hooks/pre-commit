@@ -5,11 +5,11 @@ if [[ "$FILE" =~ ^.+(BAK)$ ]]; then
     echo "No puede haber archivos terminados en .BAK" >&2
     exit 1
 
-if [[ "$FILE" =~ ^.+(bak)$ ]]; then
+elif [[ "$FILE" =~ ^.+(bak)$ ]]; then
     echo "No puede haber archivos terminados en .bak" >&2
     exit 1
 
-elif [[ "$FILE" =~ [1-0].* ]]; then
+elif [[ "$FILE" =~ [0-9].* ]]; then
     echo "El nombre de un archivo no puede contener dígitos" >&2
     exit 1
 
